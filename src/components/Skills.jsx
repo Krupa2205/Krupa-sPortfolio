@@ -4,7 +4,7 @@ export const Skills = () => {
   const skills = [
     "HTML", "CSS", "JavaScript", "ReactJS", "TailwindCSS",
     "NodeJS", "MongoDB", "Firebase", "NextJS", "ExpressJS",
-    "Github", "Writing"
+    "Github"
   ];
 
   return (
@@ -36,7 +36,7 @@ export const Skills = () => {
         }
 
         .skill-btn {
-          background: linear-gradient(45deg, #ff8c00, #ff2e63);
+          background: linear-gradient(45deg, #2D336B, #DA0C81);
           color: white;
           font-size: 16px;
           font-weight: bold;
@@ -45,7 +45,7 @@ export const Skills = () => {
           padding: 10px 20px;
           cursor: pointer;
           transition: transform 0.3s ease, box-shadow 0.3s ease;
-          box-shadow: 0 5px 15px rgba(255, 46, 99, 0.5);
+          box-shadow: 0 5px 15px rgba(224, 46, 255, 0.27);
         }
 
         .skill-btn:hover {
