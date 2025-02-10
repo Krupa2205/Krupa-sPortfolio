@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 // import logo from "../assets/img/logo.svg";
-import profile from "../assets/img/profile.jpg";
+import profile from "../assets/img/Profile.jpg"
 import linkedin from "../assets/img/linkedin.svg";
 import email from "../assets/img/email.svg";
 import github from "../assets/img/github.svg";
