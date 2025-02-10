@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.svg";
-import { ArrowRightCircle } from 'react-bootstrap-icons';
+import headerImg from "../assets/img/BannerIMG.png";
 // import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -11,7 +10,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Web Developer", "Web Designer", "UI/UX Designer" ];
+  const toRotate = [ "Web Developer", "Frontend Web Developer", "Fullstack Developer" ];
   const period = 2000;
 
   useEffect(() => {
@@ -56,9 +55,9 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Judy`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                <h1>{`Hi! I'm Krupa`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Frontend Web Developer", "Fullstack Developer" ]'><span className="wrap">{text}</span></span></h1>
+                  <p>Hey everyone! 👋 I’m Krupa, a passionate Full Stack Web Developer with expertise in both frontend and backend technologies. My skill set includes <strong>HTML, CSS, JavaScript, React.js,TailwindCSS, Node.js, Next.js, MongoDB, and Firebase</strong>, allowing me to build dynamic and responsive web applications. I am also proficient in version control using GitHub, ensuring smooth collaboration and efficient code management. Additionally, I have experience in PHP, C++, Java, and Networking, which further strengthens my ability to develop robust and scalable solutions. I am always eager to learn new technologies and enhance my problem-solving skills to create innovative and user-friendly applications. 🚀</p>
+                  
               </div>}
             </TrackVisibility>
           </Col>
