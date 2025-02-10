@@ -15,37 +15,37 @@ export const Projects = () => {
       title: "Web Development",
       description: "API Data Fetcher",
       imgUrl: projImg1,
-      link: "https://your-live-project-link1.com"
+      link: "https://krupa2205.github.io/API_Tool/"
     },
     {
       title: "Web Development",
       description: "Whatsapp Clone",
       imgUrl: projImg2,
-      link: "https://your-live-project-link2.com"
+      link: "https://wa-clone-522b8.web.app/login"
     },
     {
       title: "Web Development",
       description: "Trendvibe-Ecommerce",
       imgUrl: projImg3,
-      link: "https://your-live-project-link3.com"
+      link: "https://trend-vibe-nine.vercel.app/"
     },
     {
       title: "Web Development",
       description: "Weather Application",
       imgUrl: ProjImg4,
-      link: "https://your-live-project-link4.com"
+      link: "https://krupa2205.github.io/Weather_App/"
     },
     {
       title: "Web Development",
       description: "VLC Media Player",
       imgUrl: ProjImg5,
-      link: "https://your-live-project-link5.com"
+      link: "https://krupa2205.github.io/VLC_APP/"
     },
     {
       title: "Web Development",
       description: "Portfolio",
       imgUrl: ProjImg6,
-      link: "https://your-live-project-link6.com"
+      link: "https://krupa-s-portfolio.vercel.app/"
     }
   ];
 
